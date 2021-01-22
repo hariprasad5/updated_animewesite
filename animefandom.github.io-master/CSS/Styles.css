@@ -1,0 +1,413 @@
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+
+  /* background-color: #454545; */
+
+  /* font-family: 'Indie Flower', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Yellowtail', cursive; */
+}
+body {
+  background: url(./Images/AUni-Sign-BG.png);
+}
+
+.brand-logo {
+  font-family: "Indie Flower", cursive;
+  font-weight: 300;
+  margin: 0;
+  color: white;
+  /* font-family: 'Montserrat', sans-serif;
+font-family: 'Satisfy', cursive; */
+}
+
+.navigation-section {
+  padding: 1% 1%;
+  background-color: black;
+}
+
+.nav-brand:link {
+  text-decoration: none;
+  margin-left: 30px;
+  cursor: default;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+.nav-links {
+  margin-right: 30px;
+  color: black;
+}
+
+.search-bar {
+  margin-left: 20px;
+}
+.form-inline .form-control {
+  width: 400px;
+}
+
+.ml-auto {
+  padding-left: 350px;
+}
+
+.link-color {
+  color: white;
+}
+
+.link-color:hover {
+  color: #ec6d93;
+}
+
+/* Nav Header Amar */
+#nav_signup {
+  padding: 8px 8px;
+}
+
+#footer_index {
+  padding: 10px 10px;
+}
+/* Content section*/
+.content-section {
+  height: 78vh;
+  background-image: url("../Images/AUni-Sign-BG.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.content-section .small-box {
+  position: relative;
+  top: 9%;
+  left: 2%;
+  margin: auto;
+  width: 40%;
+  padding: 30px;
+  background-color: #ade498;
+  box-shadow: 1px 1px 20px 10px #454545;
+}
+
+.content-section .small-box h2 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+
+.content-section .small-box h6 {
+  position: relative;
+  left: 10px;
+  margin: 12px 6px 10px 5px;
+  padding: 11px 6px 1px 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* .content-section .small-box p a {
+  color: orange;
+} */
+
+/* .content-section .small-box p a:link {
+  text-decoration: none;
+} */
+
+.content-section .input-group {
+  margin: 20px 0;
+}
+
+.content-section .input-group button {
+  position: relative;
+  left: 180px;
+  width: 180px;
+}
+
+/* inner content section */
+.inner-content-section {
+  height: 67vh;
+  background-color: #457070;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+.inner-content-section .small-box {
+  position: relative;
+  top: 10%;
+  margin: auto;
+  width: 40%;
+  padding: 30px;
+  background-color: #ade498;
+  box-shadow: 1px 1px 20px 10px #454545;
+}
+
+.inner-content-section .small-box h2 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+
+.inner-content-section .small-box p {
+  position: relative;
+  left: 50%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* .inner-content-section .small-box p a {
+  color: orange;
+}
+
+.inner-content-section .small-box p a:link {
+  text-decoration: none; 
+}*/
+
+.inner-content-section .input-group {
+  margin: 20px 0;
+}
+
+.inner-content-section .input-group button {
+  position: relative;
+  left: 86%;
+}
+
+.container {
+  width: 75%;
+  padding: 50px;
+  background-color: #f5f4f4;
+  margin: 30px auto;
+  box-shadow: 1px 1px 10px 10px #454545;
+}
+.containers {
+  width: 75%;
+  padding: 50px;
+  /* background-color: #f5f4f4; */
+  margin: 30px auto;
+}
+
+/* home content text */
+.intro-body-home h2,
+.writer-section h2,
+.about-section h2,
+.tab-content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Yellowtail", cursive;
+  font-size: 2.3rem;
+}
+
+.intro-video {
+  /* margin: auto; */
+  position: relative;
+  left: 130px;
+  border-radius: 12px;
+  width: 75%;
+  height: 500px;
+}
+
+/* body content section */
+.body-content-section {
+  background-color: #daded4;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 1px;
+}
+
+.carousel-text {
+  color: rgb(233, 90, 157);
+  text-shadow: 1px 1px, black, -1px -1px black;
+}
+
+.car-img {
+  border-radius: 12px;
+}
+
+/* About Us */
+.member1 {
+  height: 25%;
+  width: 25%;
+  background-color: #007892;
+  padding: 10px;
+  border: 5px solid;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.member2 {
+  height: 25%;
+  width: 25%;
+  background-color: #fc8210;
+  border: 5px solid;
+  padding: 10px;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.about-section {
+  text-align: center;
+}
+
+.members-row {
+  display: inline-block;
+  margin: 50px auto 0 auto;
+  text-align: justify;
+  line-height: 2;
+}
+
+/* Contact Us section */
+
+.foura {
+  position: relative;
+  left: 0;
+  height: 450px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.fourb {
+  position: relative;
+  right: 0;
+  height: 450px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.linkbox1 {
+  position: relative;
+  margin: 40px auto;
+}
+
+.linkbox2 {
+  position: relative;
+  margin: 40px auto;
+}
+
+.fourcontitle {
+  position: relative;
+  margin: 70px auto 70px auto;
+}
+
+.btna {
+  -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+  -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #ffec64),
+    color-stop(1, #ffab23)
+  );
+  background: -moz-linear-gradient(center top, #ffec64 5%, #ffab23 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+  background-color: #ffec64;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  text-indent: 0;
+  border: 2px solid #ffaa22;
+  display: inline-block;
+  color: #333333;
+  font-family: "Kaushan Script", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 50px;
+  line-height: 50px;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0px 1px 0px #ffee66;
+}
+
+.btna:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #ffab23),
+    color-stop(1, #ffec64)
+  );
+  background: -moz-linear-gradient(center top, #ffab23 5%, #ffec64 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+  background-color: #ffab23;
+}
+
+.btna:active {
+  position: relative;
+  top: 1px;
+}
+
+.contactimage {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  bottom: 25px;
+  margin: 0 10px 0 10px;
+}
+
+.linkin {
+  position: relative;
+  bottom: 25px;
+  color: black;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* UP button */
+.gotobtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: black;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+/* Footer Section */
+.footer-section {
+  padding: 2% 1%;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.footer-section div p {
+  margin: 1px 0;
+}
+
+/* Anime Section */
+.tab-div {
+  text-align: center;
+}
+
+.tablink {
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.list-link:link {
+  text-decoration: none;
+}
+
+.list-link {
+  color: #454545;
+}
+
+body {
+}

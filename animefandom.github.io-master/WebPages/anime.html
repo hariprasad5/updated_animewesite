@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Anime Fandom</title>
+    <!-- Google fonts links -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Satisfy&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Amar Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+
+    <!-- Bootsrap CDN CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../CSS/Styles.css" />
+    <!-- Up-button -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="navigation-section">
+      <div>
+        <nav class="navbar navbar-expand-lg">
+          <a class="nav-brand" href="./home.html"
+            ><h1 class="brand-logo">Anime Fandom</h1></a
+          >
+
+          <!-- Navigation bar -->
+          <div class="search-bar">
+            <form class="form-inline">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light my-sm-0" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+
+          <div class="collapse navbar-collapse nav-links">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link link-color" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="./home.html#about-us"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="./home.html#contact-us"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="../index.html"
+                  >Log Out Page</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="body-content-section">
+      <!-- Container Tabs -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 tab-div">
+            <button
+              class="tablink btn"
+              onclick="openPage('Anime', event)"
+              id="animeTopTab"
+            >
+              Anime Top's
+            </button>
+          </div>
+          <div class="col-sm-4 tab-div">
+            <button class="tablink btn" onclick="openPage('Manga', event)">
+              Manga Top's
+            </button>
+          </div>
+          <div class="col-sm-4 tab-div">
+            <button class="tablink btn" onclick="openPage('List', event)">
+              Anime List
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- First Tab Fields -->
+      <div class="container Anime tab-content">
+        <h1>Top 10 Animes</h1>
+        <p><strong><a class="list-link" href="https://myanimelist.net/anime/223/Dragon_Ball">1. Dragon Ball Z</a></strong></p>
+        <p><Strong>Episodes:</Strong> 153</p>
+        <p><strong>Seasons:</strong> 9</p>
+        <p>
+            Dragonball follows Son Goku, a young boy who lives in the woods. He
+          has no friends and lives alone until a girl stumbles upon him. She is
+          searching for a set of Dragon Balls, magical objects that are said to
+          grant one wish to anyone who collects all seven of them. The girl
+          wants to find all of them and make a wish for a good boyfriend. Goku
+          has one dragon ball. However, he has no desire to give it away.
+        </p>
+        <p>
+          Expect a lot of fighting and humor! You shouldn't expect a grand story
+          from a fighting shounen. The fights are not ludicurously long here, so
+          it's not boring to watch. Actually, it's very exciting! I have to
+          admit that the animation and art are not the best here in comparison
+          to modern anime. However, there's some charm in the old art style.
+          Dragonball is a must-watch for anyone who likes anime. Give this
+          remarkable classic a try!
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/anime/21/One_Piece?q=One%20Piece&cat=anime">2. One Piece</a></strong></p>
+        <p><Strong>Episodes:</Strong> Over 800 and counting</p>
+        <p><strong>Seasons:</strong> 20 and counting</p>
+        <p>
+          One Piece is a great anime that you can easily become obsessed with!
+          The show starts off with the Pirate King revealing the existance of
+          One Piece, the treasure that will give its owner an unlimited amount
+          of riches and fame. He reveals that before his execution. The anime
+          follows Monkey D. Luffy, a teenage boy who forms his crew and travels
+          across the Grand Line, battles strong enemies, and experiences
+          different adventures in order to reach the greatest treasure. You will
+          fall in love with each and every member of Luffy´s crew. All these
+          characters are well developed and unique with their different and fun
+          personalities. The beginning mostly spends time introducing the
+          characters, though you will always find some action in these episodes.
+          However, once the formed crew reaches their destination, you will dive
+          into endless adventure!
+        </p>
+        <p>
+          The fans of this show recommend watching it in its original Japanese
+          language with subtitles. That way, you can be sure the episodes are
+          not cut, edited, and the characters are not given ridiculous voices.
+          It should be noted that the art style in this anime is completely
+          different from its contemporaries. It´s much more cartoonish.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/anime/527/Pokemon?q=pokemon&cat=anime">3. Pokemon</a></strong></p>
+        <p><Strong>Episodes:</Strong> Over 1000 and counting</p>
+        <p><strong>Seasons:</strong> 22 and counting</p>
+        <p>
+          Pokemon is considered to be one of the most popular anime series out
+          there. This show is fun and has adventure, action, and morals. Since
+          the show is aimed primarily at kids, it teaches them many moral
+          lessons. The road trip stories never take place in one town, so you
+          won't be annoyed. Give this cute show a try, especially if you have
+          experienced this franchise in other mediums such as games or cards.
+        </p>
+        <p>
+          The story centers on Satoshi, a 10-year-old boy who has always dreamed
+          of becoming a Pokemon trainer. His dream is about to come true, but
+          all three Pokemon for beginners have already been taken. Only one is
+          left, a rebellious electric Pokemon named Pikachu. Satoshi and Pikachu
+          set out on a journey to become the best among the best. That's when
+          the adventures begin!
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/anime/20/Naruto">4. Naruto</a></strong></p>
+        <p>
+          <Strong>Episodes:</Strong> 220 episodes (original anime series), 500 episodes (Naruto:
+          Shippuden), and over 100 episodes and counting (Boruto: Naruto Next
+          Generations)
+        </p>
+        <p>
+          <strong>Seasons:</strong> 5 seasons (original anime series), 21 seasons (Naruto:
+          Shippuden), and 1 season (Boruto: Naruto Next Generations)
+        </p>
+        <p>
+          You will love the degree of emotions in this show. There are so many
+          heart-wrenching moments that it will make you really worry about the
+          characters or even cry a river! There are so many reasons to love this
+          vastly popular anime series! First of all, it has character
+          development. Everyone in the series has their dark past which binds
+          the viewer to the story. We can't deny the fact that even antagonists
+          in this show are likeable because they each have their own justified
+          reasons. There are so many lovable, smart, and righteous characters!
+          Another thing that makes Naruto so special is a deeply developed jutsu
+          structure; each character is not simply overloaded with powers. They
+          have their own unique fighting style. This complexity is one of the
+          things that makes the series different from others.
+        </p>
+        <p>
+          Naruto revolves around the adventures of a boy with a living monster
+          inside him. A long time ago, a powerful fox called Nine-Tails attacked
+          one of the villages in the Shinobi Countries. The leader of the
+          village sacrificed his life and sealed the monster inside his newborn
+          son, Naruto. Years later, the boy struggles to find his place in this
+          world. One day, the hyperactive Naruto becomes a ninja. He forms his
+          own team and sets out on different missions requested by the
+          villagers. Due to his temper, Naruto stumbles upon not only great
+          friends but also some dangerous foes.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/anime/20/Naruto">5. Death Note</a></strong></p>
+        <p><Strong>Episodes:</Strong> 37</p>
+        <p><strong>Seasons:</strong> 1</p>
+        <p>
+          If you want to see a really unique and compelling story, you should
+          try Death Note. This anime is truly one of the best and most popular
+          out there. It keeps the viewer in suspense and keeps them thinking.
+          You will be forced to wonder about what you would have done if you
+          were in a character's place.
+        </p>
+        <p>
+          Imagine that you can kill people by simply picturing them in your mind
+          and writing down their names in a special notebook. It's insane, isn't
+          it? However, it's possible for Light Yagami, a high school student who
+          stumbles upon a Death Note. This special notebook has been thrown into
+          the human world by a god of death, who did so just because of his
+          boredom. After discovering such a power in his hands, Light decides to
+          make the world a better place by extinguishing as many criminals as he
+          can. However, police discover the unusual serial killings and wants to
+          catch the culprit with the help of an eccentric young detective.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/anime/235/Detective_Conan?q=6.%20Detective%20Conan&cat=anime">6. Detective Conan</a></strong></p>
+        <p><Strong>Episodes:</Strong> Over 900 and counting</p>
+        <p><strong>Seasons:</strong> 27 and counting</p>
+        <p>
+          Detective Conan has everything to keep you interested. It has funny
+          moments, a love story, drama, and unique mysteries. If you are looking
+          for well-thought-out mysteries where the solutions are not so obvious,
+          give it a shot! The writers definitely put a lot of effort into their
+          work!
+        </p>
+        <p>
+          The story follows Shinichi Kudou, who has the magnificent skill of
+          being able to solve even the most challenging cases. This is
+          significant when you take into account that he is only 17. One night
+          changes his life. It's the night when the young detective witnesses
+          two suspicious men at an amusement park. They notice him and give him
+          some experimental drug. He survives, but his body has shrunken down to
+          the size of a seven-year-old boy! While hiding his real identity,
+          Shinichi investigates the strange organization that has made a
+          dramatic change to his body.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/anime/16498/Shingeki_no_Kyojin?q=7.%20Attack%20on%20Titan&cat=anime">7. Attack on Titan</a></strong></p>
+        <p><Strong>Episodes:</Strong> 54 (total)</p>
+        <p><strong>Seasons:</strong> 3</p>
+        <p>
+          If you are looking for an epic and dramatic anime with a captivating
+          story, look no further. Attack on Titan is one of the most popular
+          anime series that is full of epic fight scenes as well as an
+          interesting and meaningful narrative. It is filled with tragic scenes
+          and sad moments. This show will likely break your heart a lot as many
+          characters sacrifice their lives in order to protect humanity.
+        </p>
+        <p>
+          Adapted from the award-winning manga of the same name, Attack on Titan
+          takes us to a world where mankind is on the verge of extinction.
+          Terrifying and enormous creatures called titans have forced humans to
+          hide behind gigantic walls. These titans love human flesh not out of
+          hunger but out of pleasure. That makes them even more terrifying.
+          Humans have been hiding behind the walls for 100 years and they don't
+          expect any intrusions. However, their calm life comes to an end when a
+          titan breaches the outer wall. The story follows Eren Yeager and his
+          two allies who dedicate their lives to defeating the man-eating
+          creatures. If you're still uncertain about this series. you should
+          check out this review for another opinion.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/anime/532/Bishoujo_Senshi_Sailor_Moon_S?q=8.%20Sailor%20Moon&cat=anime">8. Sailor Moon</a></strong></p>
+        <p><Strong>Episodes:</Strong> 200</p>
+        <p><strong>Seasons:</strong> 5</p>
+        <p>
+          If you are looking for comedy, romance, dramatic moments, and a great
+          soundtrack, Sailor Moon should be your choice. The romance and comedy
+          here are well balanced with some funny moments and it works well! The
+          characters here are so easy to relate to! They are cute, lovable, and
+          relatable in many ways. This show may seem childish (primarily because
+          of the voices in dubbed version), but it actually covers a lot of
+          issues such as sexuality, violence, and many relationship problems.
+          Many fans of this anime series say that it's better to avoid the
+          English dubbed version. They recommend that you watch it with
+          subtitles because the voice acting is way better in the original
+          Japanese version.
+        </p>
+        <p>
+          Sailor Moon is about a regular teenage girl whose life is turned
+          upside down after she learns about her fate. It is revealed that the
+          girl is destined to become a planetary guardian and protect the
+          planet. From then on, she is called the warrior Sailor Moon. She must
+          make allies with the other Sailor Soldiers in order to defend the
+          Earth.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/anime/121/Fullmetal_Alchemist?q=9.%20Fullmetal%20Alchemist&cat=anime">9. Fullmetal Alchemist</a></strong></p>
+        <p>
+          <Strong>Episodes:</Strong> 51 ep. (Fullmetal Alchemist), 64 ep. (Fullmetal Alchemist:
+          Brotherhood)
+        </p>
+        <p><strong>Seasons:</strong> One for each series</p>
+        <p>
+          Fullmetal Alchemist tells the story of two brothers who make an
+          attempt to bring their mother back to life. According to the
+          fundamental law of alchemy, in order to get something, an alchemist
+          must sacrifice something of the same value. Thus, one of the brothers
+          loses an arm and the other loses his entire body (his soul becomes
+          bonded into a suit of armor). Soon, the brothers learn about the
+          existence of the Philosopher Stone, which has the ability to transcend
+          the laws of alchemy. Our heroes decide to embark on a quest to get
+          that stone. The further they go, the more they realize they are drawn
+          into a far darker battle than they imagined.
+        </p>
+        <p>
+          As you might have already guessed, this series belongs to one of the
+          most popular anime genres, shounen, which is aimed at teenage boys.
+          They usually feature a male protagonist who embarks on a dangerous
+          adventure. Actually, Fullmetal Alchemist has a more intricate and
+          complex story then many other shounens. It's also different from many
+          other entries in this genre because it takes place in a fictionalized
+          world with a setting of somewhere in European the early 20th century.
+          This action fantasy anime is considered a must-watch for any anime fan
+          as well as those who are new to the world of anime! If you are still
+          on the fence with this series
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/anime/11757/Sword_Art_Online?q=10.%20Sword%20Art%20Online&cat=anime">10. Sword Art Online</a></strong></p>
+        <p><Strong>Episodes:</Strong> 49 (total)</p>
+        <p><strong>Seasons:</strong> 2</p>
+        <p>
+          If very beautiful animation and strong memorable characters is what
+          you expect from an anime series, then give Sword Art Online! a shot.
+          The animation and soundtrack in this series is really enjoyable. It
+          may not have the best pacing and it's not without its flaws, but it's
+          entertaining and it will keep you interested.
+        </p>
+        <p>
+          The story follows a teenage boy, Kirito, who gets stuck in a massive
+          futuristic online game called Sword Art Online. He becomes one of
+          those lucky enthusiasts who are the first to get access to the game.
+          He logs into the game world full of medieval weapons and dangerous
+          monsters. Sounds exciting for gamers, yes? However, the boy soon
+          realizes that he cannot quit the game until he completes all one
+          hundred levels! Now the game stops being fun and exciting. Actually,
+          it turns into an extremely dangerous ordeal. If the players die into
+          the virtual world, they die in reality. Kirito and his allies decide
+          to do whatever it takes to survive.
+        </p>
+      </div>
+
+      <!-- Second Tab Fields -->
+      <div class="container Manga tab-content">
+        <h1>Top 10 Mangas</h1>
+        <p><strong><a class="list-link" href="https://myanimelist.net/manga/13/One_Piece?q=1.%20One%20Piece&cat=manga">1. One Piece</a></strong></p>
+        <p>
+          One Piece is an excellent story; comedy, adventure, fantasy, romance
+          (of the sea), just the tip the iceberg. It also uses puns and
+          different language dialects for characters and moves alike; and unlike
+          a certain manga/anime series where you can wish someone back to life,
+          characters stay dead and more importantly it invokes one of the
+          greatest and most terrible things in story-telling; the concept and
+          transference of loss. Even though the story is a comedy/adventure
+          series, you can see that many of the characters have experienced loss
+          in the past or in the present; and as a reader I feel their pain even
+          though I have not experienced watching someone die but have
+          experienced the death of a loved one. This story is far from over, and
+          I can't wait to see the battles with the four emperors and their
+          crews, when the end come I hope all we dedicated fans and readers are
+          more than satisfied with the end.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/manga/25/Fullmetal_Alchemist?q=2.%20Fullmetal%20Alchemist&cat=manga">2. Fullmetal Alchemist</a></strong></p>
+        <p>
+          Full Metal Alchemist (the manga, not the original anime-- Brotherhood
+          was the better of the two) is probably the most emotional story I've
+          ever gone through and stuck with. Originally I wanted nothing to do
+          with it because of it being a mainstream choice and having a bad rep
+          for the first anime version. When I went back and actually looked into
+          it, I was sucked into it. The fact that it takes two almost
+          anti-hero's and puts them through struggles similar to what
+          adolescents face as they mature is not only remarkable, but it is also
+          eye opening. The ultimate antagonist is by far the best I've come
+          across. FMA (B) taught me that we cannot hope to be perfect-- there's
+          just no such thing. We must revel in being mortal while we live and
+          appreciate the time given to us. No matter how many times life knocks
+          us down, we MUST push through. There is always a better day. I don't
+          know.. But while Naruto is on the top of my own list, Full Metal
+          Alchemist quickly comes in right behind it. Go read it or watch
+          Brotherhood now. If you haven't yet, you're missing out.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/manga/11/Naruto?q=3.%20Naruto&cat=manga">3. Naruto</a></strong></p>
+        <p>
+          Naruto isn't treasured by a thousand people just because of his
+          strength, that is madly WRONG! Many people can't see it, but I do. T
+          isn't the fighting the only reason that makes you watch that manga,
+          it's the atmosphere. The romance, the laughter, the sadness and
+          undeniable anger is the reason, it shows you all your feelings deep
+          inside your soul, from the bottom of your heart. My country isn't
+          much, not much things that we can brag about, and my school friends
+          crazily adore Naruto just because of skill, and when I want to tell
+          them that more valuable isn't his skill, but his amazing lion spirit
+          that never gave up, that what truly made us smile. But seeing all that
+          hope, inspiring shine on my friends eyes makes Me understand that they
+          treasure they're version. So, for now that's all I have to say.
+          Ananomus
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/manga/89734/Dragon_Ball_Super?q=4.%20Dragon%20Ball&cat=manga">4. Dragon Ball</a></strong></p>
+        <p>
+          Dragon ball is the first series but the second series of dragon ball
+          (dragonball z) is the best ever it's awesome anime in the world and we
+          can't compare dragon ball z with others because it has the best
+          storyline and most action packed and adventurous anime. It's number 1
+          anime created in the world ever.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/manga/2/Berserk?q=5.%20Berserk&cat=manga">5. Berserk</a></strong></p>
+        <p>
+          I am not shocked to see that Berserk isn't number 1 because in terms
+          of popularity, One Piece and everything else above Berserk is more
+          popular and have been read by most people. I now give advise to you
+          all who haven't read Berserk... READ IT! You will see why this is
+          considered by many and most critics to be the greatest manga ever
+          created. This manga is so brilliant in story telling, writing,
+          characters, art, and pacing that it could also be considered one of
+          the greatest fiction works of all time. The dialogue is breath taking,
+          and the chemistry between the characters so believable and touching
+          that it eventually builds up to what is probably the most horrific
+          betrayal scene ever written or drawn on paper. I've read it so many
+          times and it still sends shivers down my spine. If you like manga, you
+          owe it to yourself to read this masterpiece. An experience you will
+          never forget.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/manga/12/Bleach?q=6.%20Bleach&cat=manga">6. Bleach</a></strong></p>
+        <p>
+          Most people play favorites on voting so bleach here is down but on all
+          on going manga, I do think that bleach the best. Well, people have
+          different tastes, but I say that bleach's story is much deeper than
+          Naruto's or one piece's that's why most people can't get the full
+          essence of its story. I'm not over rating it but it's the truth.
+          Although my favorite is bleach, but I can't deny that Naruto is still
+          the first because it's well balance. Naruto's story isn't hard to cope
+          up with and it's interesting. While bleach's story, as I said earlier
+          is more for an adult and people might find it hard to cope up with.
+          But if you are able to get its essence then you'll find it as the best
+          on going manga (only applicable if you prefer uniformly organized
+          structure of literature).. Third is one piece, because if you are an
+          adventure lover, you'll like it. But because of its childish
+          plot/story you can even skip a few hundreds of episodes/chapters and
+          still cope up with the story... Well, it's not my preference so I
+          don't like it very much, but I still read its manga. Simplifying
+          everything: there are 95% of idiots are in this world and only 5% of
+          level headed people. And how many of those idiots and smart people are
+          watching/reading anime/manga? I know you know where I'm leading this.
+          Let's continue: do you think that those low headed people can get the
+          essence of bleach which is deep and hard to cope up for them? I'm not
+          insulting any manga or people, it just makes me get irritated to those
+          ignorant and stiff headed people who criticize but doesn't have the
+          wisdom to do so.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/manga/21/Death_Note?q=7.%20Death%20Note&cat=manga">7. Death Note</a></strong></p>
+        <p>
+          This is by far the best manga ever... It completely breaks off the
+          model popular shounen manga follow, which is having a character who
+          blurs the line between man and beast yet is charismatic as
+          protagonist(in simple, the lovable idiot), who is unnaturally
+          strong/powerful, and faces off against even stronger enemies to decide
+          the fate of the world/universe, who then beat the living pulp out of
+          him; and when all hope of defeating him is lost somehow finds the
+          strength to carry on and beats him after realizing he's got the fate
+          of the people close to hiworld/universe on his back... Don't get me
+          wrong, I love all that kind of manga too, Goku was my childhood hero,
+          I love naruto too, and fairytail cracks me up (sorry but definitely
+          not One piece, haven't seen/read much but what I have has been
+          ridiculously dumb, sorry). Anyway you got to admit when it comes to
+          quality Death Note by far surpasses any manga there is at the moment.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/manga/598/Fairy_Tail?q=8.%20Fairy%20Tail&cat=manga">8. Fairy Tail</a></strong></p>
+        <p>
+          The attitudes and emotions of all the individual characters are
+          realistic and unique. The storyline gets straight to the point,
+          there's no messing around. Every chapter has a distinct purpose and
+          feels like a lot more happens than in other manga series. It's far
+          funnier than the all the manga I read whilst being able to maintain a
+          high level of seriousness when it counts. A balance that most manga
+          get wrong. All in all this is my favorite manga because it prompts the
+          right emotions in the reader at the right times combining the notions
+          of fun, family and community with badass fight scenes. It reminds me
+          of when I was a kid wishing I was a super saiyan. Only now I wish I
+          was a Dragon-Slayer. Too Good to be in 8th spot on any manga list.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/manga/42/Dragon_Ball?q=9.%20Dragon%20Ball%20Z&cat=manga">9. Dragon Ball Z</a></strong></p>
+        <p>
+          When I saw the sheer volume of its issues, I had thought that I had
+          needs year to be done with it and now here I am with the entire manga
+          completed in less than one month Absolutely fantastic, for a long time
+          I was quite going through the Hangover if having finished it and
+          couldn't pick up any manga. Absolutely fab.. DBZ and DB both are love,
+          even though I had to vote dbz here.
+        </p>
+
+        <p><strong><a class="list-link" href="https://myanimelist.net/manga/26/Hunter_x_Hunter?q=10.%20Hunter%20x%20Hunter&cat=manga">10. Hunter x Hunter</a></strong></p>
+        <p>
+          I first saw the anime and loved the logic of the characters way to
+          deal with hunters test and after, when they learned how to use nem,
+          it's awesome to see how Gon gets stronger and helps everyone he mets
+          while trying to find his father. After the last anime episode in
+          treasure island, I had to see if he met Gin, I found the manga and its
+          10 times cooler and more bloody! Maybe not the best Manga in the
+          world, but it's my top 3.
+        </p>
+      </div>
+
+      <!-- Third Tab Fields -->
+      <div class="container List tab-content">
+        <h1>Anime List</h1>
+        <p>1. <a class="list-link" href="https://myanimelist.net/anime/23289/Gekkan_Shoujo_Nozaki-kun?q=Monthly%20Girls%27%20Nozaki-kun&cat=anime" >Monthly Girls' Nozaki-kun</a></p>
+        <p>2. <a class="list-link" href="https://myanimelist.net/anime/223/Dragon_Ball?q=dragon%20ball&cat=anime">Dragon Ball Z</a></p>
+        <p>2. <a class="list-link" href="https://myanimelist.net/anime/918/Gintama?q=gintama&cat=anime">Gintama</a></p>
+        <p>3. <a class="list-link" href="https://myanimelist.net/anime/136/Hunter_x_Hunter?q=hunter%20x%20hunter&cat=anime">Hunter x Hunter</a></p>
+        <p>4. <a class="list-link" href="https://myanimelist.net/anime/16498/Shingeki_no_Kyojin?q=attack%20on%20titan&cat=anime">Shingeki no Kyojin</a></p>
+        <p>5. <a class="list-link" href="https://myanimelist.net/anime/820/Ginga_Eiyuu_Densetsu?q=ginga&cat=anime">Ginga Eiyuu Densetsu</a></p>
+        <p>6. <a class="list-link" href="https://myanimelist.net/anime/530/Bishoujo_Senshi_Sailor_Moon?q=sailor%20moon&cat=anime">Sailor Moon</a></p>
+        <p>7. <a class="list-link" href="https://myanimelist.net/anime/33095/Shouwa_Genroku_Rakugo_Shinjuu__Sukeroku_Futatabi-hen?q=Descending%20Stories%3A%20Showa%20Genroku%20Rakugo%20Shinju&cat=anime">Descending Stories: Showa Genroku Rakugo Shinju</a></p>
+        <p>8. <a class="list-link" href="https://myanimelist.net/anime/210/Ranma_%C2%BD?q=Ranma%20%C2%BD&cat=anime">Ranma ½</a></p>
+        <p>9. <a class="list-link" href="https://myanimelist.net/anime/18679/Kill_la_Kill">Kill la Kill</a></p>
+        <p>10. <a class="list-link" href="https://myanimelist.net/anime/440/Shoujo_Kakumei_Utena?q=Revolutionary%20Girl%20Utena&cat=anime">Revolutionary Girl Utena</a></p>
+        <p>11. <a class="list-link" href="https://myanimelist.net/anime/14719/JoJo_no_Kimyou_na_Bouken_TV?q=Jojo%27s%20Bizarre%20Adventure%3A%20Stardust%20Crusaders&cat=anime">Jojo no Kimyou na Bouken</a></p>
+        <p>12. <a class="list-link" href="https://myanimelist.net/anime/31964/Boku_no_Hero_Academia?q=My%20Hero%20Academia&cat=anime">My Hero Academia</a></p>
+        <p>13. <a class="list-link" href="https://myanimelist.net/anime/35120/Devilman__Crybaby?q=Devilman%20Crybaby&cat=anime">Devilman Crybaby</a></p>
+        <p>14. <a class="list-link" href="https://myanimelist.net/anime/1735/Naruto__Shippuuden?q=Naruto%20Shippuden&cat=anime">Naruto Shippuden</a></p>
+        <p>15. <a class="list-link" href="https://myanimelist.net/anime/2251/Baccano?q=Baccano&cat=anime">Baccano</a></p>
+        <p>16. <a class="list-link" href="https://myanimelist.net/anime/853/Ouran_Koukou_Host_Club?q=Ouran%20High%20School%20Host%20Club&cat=anime">Ouran High School Host Club</a></p>
+        <p>17. <a class="list-link" href="https://myanimelist.net/anime/1575/Code_Geass__Hangyaku_no_Lelouch?q=Code%20Geass%3A%20Lelouch%20of%20the%20Rebellion&cat=anime">Code Geass: Lelouch of the Rebellion</a></p>
+        <p>18. <a class="list-link" href="https://myanimelist.net/anime/205/Samurai_Champloo?q=Samurai%20Champloo&cat=anime">Samurai Champloo</a></p>
+        <p>19. <a class="list-link" href="https://myanimelist.net/anime/227/FLCL?q=FLCL&cat=anime">FLCL</a></p>
+        <p>20. <a class="list-link" href="https://myanimelist.net/anime/392/Yuu%E2%98%86Yuu%E2%98%86Hakusho?q=Yu%20Yu%20Hakusho&cat=anime">Yuu Yuu Hakusho</a></p>
+        <p>21. <a class="list-link" href="https://myanimelist.net/anime/30/Neon_Genesis_Evangelion?q=Neon%20Genesis%20Evangelion&cat=anime">Neon Genesis Evangelion</a></p>
+        <p>22. <a class="list-link" href="https://myanimelist.net/anime/32182/Mob_Psycho_100?q=Mob%20Psycho%20100&cat=anime">Mob Psycho 100</a></p>
+        <p>23. <a class="list-link" href="https://myanimelist.net/anime/5258/Hajime_no_Ippo__New_Challenger?q=Hajime%20no%20Ippo&cat=anime">Hajime no Ippo</a></p>
+        <p>24. <a class="list-link" href="https://myanimelist.net/anime/21/One_Piece?q=One%20Piece&cat=anime">One Piece</a></p>
+        <p>25. <a class="list-link" href="https://myanimelist.net/anime/19/Monster?q=Monster&cat=anime">Monster</a></p>
+        <p>26. <a class="list-link" href="https://myanimelist.net/anime/1/Cowboy_Bebop?q=Cowboy%20Bebop&cat=anime">Cowboy Bebop</a></p>
+        <p>27. <a class="list-link" href="https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood?q=Fullmetal%20Alchemist%3A%20Brotherhood&cat=anime">Fullmetal Alchemist: Brotherhood</a></p>
+        <p>28. <a class="list-link" href="https://myanimelist.net/anime/269/Bleach?q=Bleach&cat=anime">Bleach</a></p>
+        <p>29. <a class="list-link" href="https://myanimelist.net/anime/30276/One_Punch_Man?q=One%20Punch%20Man&cat=anime">One Punch Man</a></p>
+        <p>30. <a class="list-link" href="https://myanimelist.net/anime/9253/Steins_Gate?q=Steins%3BGate&cat=anime">Steins;Gate</a></p>
+        <p>31. <a class="list-link" href="https://myanimelist.net/anime/3861/Shaman_King_Specials?q=Koe%20no%20Katachi&cat=anime">Koe no Katachi</a></p>
+        <p>32. <a class="list-link" href="https://myanimelist.net/anime/31646/3-gatsu_no_Lion?q=3-gatsu%20no%20Lion&cat=anime">3-gatsu no Lion</a></p>
+        <p>33. <a class="list-link" href="https://myanimelist.net/anime/32281/Kimi_no_Na_wa?q=Kimi%20no%20Na%20wa.&cat=anime">Kimi no Na wa.</a></p>
+        <p>34. <a class="list-link" href="https://myanimelist.net/anime/4181/Clannad__After_Story?q=Clannad%3A%20After%20Story&cat=anime">Clannad: After Story</a></p>
+        <p>35. <a class="list-link" href="https://myanimelist.net/anime/31181/Owarimonogatari?q=Owarimonogatari&cat=anime">Owarimonogatari</a></p>
+        <p>36. <a class="list-link" href="https://myanimelist.net/anime/32182/Mob_Psycho_100?q=Mob%20Psycho%20100&cat=anime">Mob Psycho 100</a></p>
+        <p>37. <a class="list-link" href="https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi?q=Sen%20to%20Chihiro%20no%20Kamikakushi&cat=anime">Sen to Chihiro no Kamikakushi</a></p>
+        <p>38. <a class="list-link" href="https://myanimelist.net/anime/34599/Made_in_Abyss?q=Made%20in%20Abyss&cat=anime">Made in Abyss</a></p>
+        <p>39. <a class="list-link" href="https://myanimelist.net/anime/44042/Holo_no_Graffiti?q=Holo%20no%20Graffiti&cat=anime">Holo no Graffiti</a></p>
+        <p>40. <a class="list-link" href="https://myanimelist.net/anime/2001/Tengen_Toppa_Gurren_Lagann?q=Tengen%20Toppa%20Gurren%20Lagann&cat=anime">Tengen Toppa Gurren Lagann</a></p>
+      </div>
+
+     <a class="gotobtn" href="#"> <i class="fas fa-arrow-up"></i></a>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div>
+        <p>Made with love in India</p>
+        <p>© Fury 2020</p>
+      </div>
+    </footer>
+
+    <script src="../CJS/index.js"></script>
+  </body>
+</html>

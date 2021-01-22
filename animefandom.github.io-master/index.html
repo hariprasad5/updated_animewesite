@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div id="login_div" class="main-div">
+        <h3 style="text-align: center;font-size: 25px;" id="log_header">Login/SignUp</h3>
+        <input type="email" placeholder="Email..." id="email_field" />
+        <input type="password" placeholder="Password..." id="password_field" />
+
+        <button onclick="login()" >Login to Account</button>
+        <h3 id="reg">Haven't registered yet? Click the below button to SignUp now!</h3>
+        <button id="signup" onclick="signup()" >SignUp</button>
+    </div>
+    
+    <div id="user_div" class="loggedin-div">
+        <h3>Welcome User</h3>
+        <p id= "user_para" >Welcome to Firebase Web Login Example. You are signed in currently</p>
+        <button onclick="logout()">LogOut</button>
+        <button id="verify_btn" onclick="sendEmailVerification()">Send Verification</button>
+        <a href="./WebPages/home.html" id="a_tag">Click here to enter the Anime World</a> 
+    </div>
+
+    
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDB0Xqiro-_9HlSrHdR_PTSJsjUXsfxl14",
+    authDomain: "anime-60c51.firebaseapp.com",
+    projectId: "anime-60c51",
+    storageBucket: "anime-60c51.appspot.com",
+    messagingSenderId: "520865104668",
+    appId: "1:520865104668:web:af7608a7ccd39f61ed30d9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+
+<script src="./signup.js"></script>
+</body>
+</html>
